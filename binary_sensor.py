@@ -66,6 +66,7 @@ class HumiditeAlerte(Entity):
             variation = onHumidity - current_humidity
             if variation >= 5:
                 self._state = False
-
+            if variation < 0:
+                onHumidity = current_humidity
 
         self.async_write_ha_state()
