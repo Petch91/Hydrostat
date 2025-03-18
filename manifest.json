@@ -1,0 +1,11 @@
+{
+    "domain": "humidite_detecteur",
+    "name": "Détecteur d'humidité",
+    "version": "1.0.0",
+    "documentation": "https://github.com/tonrepo/humidite_detecteur",
+    "requirements": [],
+    "codeowners": [
+        "@Petch91"
+    ],
+    "config_flow": false
+}
